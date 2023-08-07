@@ -1,0 +1,32 @@
+{
+  "name": "react-native-app",
+  "version": "1.0.0",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "dev": "expo start --tunnel",
+    "web": "expo start --web",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "build": "eas build",
+    "build-apk": "eas build -p android --profile preview"
+  },
+  "dependencies": {
+    "@expo/webpack-config": "^18.0.1",
+    "@react-navigation/native-stack": "^6.9.13",
+    "@react-navigation/stack": "^6.3.17",
+    "@reduxjs/toolkit": "^1.9.5",
+    "axios": "^1.4.0",
+    "expo": "~48.0.11",
+    "expo-status-bar": "~1.4.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-native": "0.71.6",
+    "react-native-web": "~0.18.10",
+    "react-redux": "^8.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
+  },
+  "private": true
+}
